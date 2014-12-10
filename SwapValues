@@ -1,0 +1,9 @@
+Sub SwapValues()
+    Dim tempValue As Double
+    
+    tempValue = ActiveCell.Value
+    
+    ActiveCell.Value = Range("B1").Value
+    
+    Range("B1").Value = tempValue
+End Sub
